@@ -1,0 +1,35 @@
+
+
+ ------->  Reading matrices from ASCII files 
+
+ *** The mass matrix M ***
+m: 10074, n: 10074, nz: 190494 
+
+ *** The nullspace basis Z ***
+m: 10074, n: 9201, nz: 12890 
+
+ *** The stiffness matrix K ***
+m: 10074, n: 10074, nz: 545390 
+
+ *** The observation matrix ***
+m: 10074, n: 126, nz: 216 
+
+ *** The norm matrix Kr ***
+m: 126, n: 126, nz: 8001 
+ 
+ nnz(K)+2*nnz(B)+nnz(Prod) = 1778217 
+
+ ------->   Write matrices in Form 1 [ZAZ ZBZ; ZBZ ZTZ]  ...
+
+ Write matrix ZAZ in binary to 'ZAZ.dat' ...
+
+ Write matrix ZBZ in binary to 'ZBZ.dat' ...
+
+ Write matrix ZPrZ in binary to 'ZPrZ.dat' ...
+
+ Write vector vecrhs in binary to 'rhs.dat' ...
+ 
+ nnz(ZAZ)+2*nnz(ZBZ)+nnz(ZPrZ) = 1943373 
+
+
+ ------->   Matrices saved ! 
