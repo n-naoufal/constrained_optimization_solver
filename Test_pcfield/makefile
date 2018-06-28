@@ -1,9 +1,9 @@
 
-PETSC_DIR        = /home/J08475/petsc-3.7.6/Install
+PETSC_DIR        = /petsc-3.7.6/Install
 PETSC_ARCH       =  arch-linux2-c-debug
-LOCDIR           = /home/J08475/petsc-3.7.6/Install
+LOCDIR           = /petsc-3.7.6/Install
 EXAMPLESC        = test.c 
-DATAFILESPATH    = /home/J08475/petsc-3.7.6/Install/Test_shell
+DATAFILESPATH    = /petsc-3.7.6/Install/Test_shell
 MANSEC           = KSP
 CLEANFILES       = rhs.vtk solution.vtk
 NP               = 1
@@ -117,10 +117,10 @@ KSPOPT3 = $(KSShur) $(PCShur) $(PCShur1)
 OPTGNR = -log_summary -ksp_converged_reason  -ksp_monitor
 
 # Execution of the block resolution
-DATASTORETEST1   = /home/J08475/petsc-3.7.6/Install/Test_pcfield/matrices/test_alternator
-DATASTORETEST2   = /home/J08475/petsc-3.7.6/Install/Test_pcfield/matrices/test2
-DATASTORETEST3   = /home/J08475/petsc-3.7.6/Install/Test_pcfield/matrices/test3
-DATASTORETEST4   = /home/J08475/petsc-3.7.6/Install/Test_pcfield/matrices/test4
+DATASTORETEST1   = /petsc-3.7.6/Install/Test_pcfield/matrices/test_alternator
+DATASTORETEST2   = /petsc-3.7.6/Install/Test_pcfield/matrices/test2
+DATASTORETEST3   = /petsc-3.7.6/Install/Test_pcfield/matrices/test3
+DATASTORETEST4   = /petsc-3.7.6/Install/Test_pcfield/matrices/test4
 #  Needed file to construct the right hand side ----> [ 0 ; Z'f]
 OPTForm1_TEST1 = -matZAZ $(DATASTORETEST1)/ZAZ.dat -matZBZ $(DATASTORETEST1)/ZBZ.dat -matZPrZ $(DATASTORETEST1)/ZPrZ.dat -vecrhs $(DATASTORETEST1)/rhs.dat
 OPTForm1_TEST2 = -matZAZ $(DATASTORETEST2)/ZAZ.dat -matZBZ $(DATASTORETEST2)/ZBZ.dat -matZPrZ $(DATASTORETEST2)/ZPrZ.dat -vecrhs $(DATASTORETEST2)/rhs.dat
