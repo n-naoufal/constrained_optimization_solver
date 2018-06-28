@@ -1,8 +1,8 @@
 
-PETSC_DIR        = /home/J08475/petsc-3.7.6/Install
-LOCDIR           = /home/J08475/petsc-3.7.6/Install
+PETSC_DIR        = petsc-3.7.6/Install
+LOCDIR           = petsc-3.7.6/Install
 EXAMPLESC        = test.c 
-DATAFILESPATH    = /home/J08475/petsc-3.7.6/Install/Test_shell
+DATAFILESPATH    = petsc-3.7.6/Install/Test_shell
 MANSEC           = KSP
 CLEANFILES       = rhs.vtk solution.vtk
 NP               = 1
